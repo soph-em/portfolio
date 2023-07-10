@@ -8,7 +8,7 @@
 </section>
 
 <section class="page">
-	<div class="projects">
+	<div class="projects" id="projects">
 		<h2>My Work</h2>
 		<Project
 			projectName="Subreddit Guesser"
