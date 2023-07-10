@@ -11,9 +11,9 @@
 	<h2>
 		<a href="/">My Work</a>
 	</h2>
-	<h2>
+	<!-- <h2>
 		<a href="/expertise">Expertise</a>
-	</h2>
+	</h2> -->
 	<h2>
 		<a href="/blog">Blog</a>
 	</h2>
