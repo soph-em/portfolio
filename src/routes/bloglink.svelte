@@ -54,4 +54,12 @@
 	.name {
 		margin: 0;
 	}
+	@media screen and (max-width: 660px) {
+		.author {
+			width: 50%;
+		}
+		img {
+			max-width: 350px;
+		}
+	}
 </style>

@@ -46,6 +46,7 @@
 	}
 	.hero {
 		height: 80vh;
+		padding-top: 10%;
 	}
 	.page {
 		background-color: aliceblue;
@@ -85,6 +86,7 @@
 			width: auto;
 		}
 		.hero {
+			padding-top: 20%;
 			height: 40%;
 		}
 	}
