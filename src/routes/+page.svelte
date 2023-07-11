@@ -64,6 +64,7 @@
 <style>
 	.contact {
 		width: 50%;
+		padding-bottom: 3%;
 	}
 	.links {
 		flex-direction: column;

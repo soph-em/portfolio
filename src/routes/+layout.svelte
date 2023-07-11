@@ -6,8 +6,8 @@
 
 <!-- <Testnavbar /> -->
 <Navbar />
-<Footer />
 <slot />
+<Footer />
 
 <style>
 	:global(body) {
