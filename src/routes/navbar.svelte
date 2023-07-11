@@ -1,4 +1,5 @@
 <script lang="ts">
+	import twitter from '../routes/twitter-svgrepo-com.svg';
 	import { onMount } from 'svelte';
 	import { burgerMenuStore } from '../routes/burgerMenuStore';
 
@@ -61,15 +62,19 @@
 		<h2>
 			<a href="/#projects">My Work</a>
 		</h2>
+		<h2>
+			<a href="/#contact">Contact</a>
+		</h2>
 		<!-- <h2>
 	  <a href="/expertise">Expertise</a>
 	</h2> -->
 		<h2>
 			<a href="/blog">Blog</a>
 		</h2>
-		<h2>
-			<a href="/contact">Contact</a>
-		</h2>
+		<!-- <h2>
+			<a href="https://twitter.com/soph_m_e" target="">My Twitter</a>
+		</h2> -->
+		<!-- <img src={twitter} /> -->
 	</div>
 </nav>
 
@@ -81,19 +86,26 @@
 		<h2>
 			<a href="/#projects" on:click={closeMenu}>My Work</a>
 		</h2>
+		<h2>
+			<a href="/#contact" on:click={closeMenu}>Contact</a>
+		</h2>
 		<!-- <h2>
       <a href="/expertise" on:click={closeMenu}>Expertise</a>
     </h2> -->
 		<h2>
 			<a href="/blog" on:click={closeMenu}>Blog</a>
 		</h2>
-		<h2>
-			<a href="/contact" on:click={closeMenu}>Contact</a>
-		</h2>
 	</div>
 {/if}
 
 <style>
+	img {
+		height: 25px;
+		display: block;
+		text-align: center;
+		padding: 16px;
+		text-decoration: none;
+	}
 	.burgerMenu {
 		position: fixed;
 		top: 0;
@@ -121,7 +133,8 @@
 	.burger {
 		display: none;
 		z-index: 9999;
-		margin-left: 20px;
+		/* margin-left: 20px; */
+		/* margin-right: 30px; */
 	}
 
 	a {
@@ -195,7 +208,7 @@
 	@media screen and (max-width: 660px) {
 		.burger {
 			display: flex;
-			margin-right: 20px;
+			margin-right: 40px;
 		}
 
 		nav {

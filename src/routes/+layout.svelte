@@ -1,10 +1,12 @@
 <script lang="ts">
+	import Footer from './footer.svelte';
 	import Navbar from './navbar.svelte';
 	import Testnavbar from './testnavbar.svelte';
 </script>
 
 <!-- <Testnavbar /> -->
 <Navbar />
+<Footer />
 <slot />
 
 <style>
@@ -16,5 +18,6 @@
 	}
 	:global(html) {
 		scroll-behavior: smooth;
+		background-color: aliceblue;
 	}
 </style>
