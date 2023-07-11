@@ -1,11 +1,11 @@
 <script lang="ts">
-	export let projectName: string;
-	export let projectDescription: string;
-	export let technologies: string[];
-	export let projectimg: string;
-	export let projectimgalt: string;
-	export let projectGithub: string;
-	export let projectLink: string | null;
+	export let projectName;
+	export let projectDescription;
+	export let technologies;
+	export let projectimg;
+	export let projectimgalt;
+	export let projectGithub;
+	export let projectLink;
 </script>
 
 <!-- Array<string> -->

@@ -1,14 +1,15 @@
-<script lang="ts">
-	export let photo: string;
-	export let photoalt: string;
-	export let title: string;
-	export let description: string;
-	export let date: string;
-	export let pfp: string;
+<script>
+	export let photo;
+	export let photoalt;
+	export let title;
+	export let description;
+	export let date;
+	export let pfp;
+	export let link;
 </script>
 
 <div class="content">
-	<a href="/">
+	<a href={link}>
 		<img src={photo} alt={photoalt} />
 		<h2>{title}</h2>
 		<p>{description}</p>
@@ -34,6 +35,7 @@
 	}
 	.content {
 		justify-content: center;
+		padding-top: 50px;
 	}
 	.author {
 		display: flex;
