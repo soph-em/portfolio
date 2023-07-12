@@ -36,6 +36,7 @@
 	.content {
 		justify-content: center;
 		padding-top: 50px;
+		min-height: 90vh;
 	}
 	.author {
 		display: flex;
