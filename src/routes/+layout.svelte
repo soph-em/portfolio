@@ -5,9 +5,12 @@
 </script>
 
 <!-- <Testnavbar /> -->
-<Navbar />
-<slot />
-<Footer />
+<div>
+	<Navbar />
+	<slot />
+	<!-- <div class="grow" /> -->
+	<Footer />
+</div>
 
 <style>
 	:global(body) {
