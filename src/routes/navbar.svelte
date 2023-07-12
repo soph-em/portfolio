@@ -216,7 +216,7 @@
 		}
 
 		h2 {
-			/* font-size: small; */
+			font-size: x-large;
 			flex: 0;
 		}
 
