@@ -26,7 +26,7 @@
 			projectimgalt="video of Together Calendar website"
 			projectGithub="https://github.com/Together-100Devs/Together"
 			projectLink="https://together.cyclic.app/"
-			projectDescription="Open Source contributions to calendar app supporting event scheduling for a community 40,000 strong. "
+			projectDescription="Open Source contributions to calendar app supporting event scheduling for a community 40,000 strong. Added a component, converted to react-router and added associated testing, submitted bug report."
 			technologies={['React', 'Tailwind CSS', 'Node.JS', 'Express.JS', 'MongoDB', 'Cypress']}
 		/>
 		<Project
