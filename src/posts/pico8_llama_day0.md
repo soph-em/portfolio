@@ -7,6 +7,8 @@ categories:
   - pico8
   - llamagame
 published: true
+author: 'src/routes/pfp.jpg'
+headerimage: 'src/blogPhotos/day0.png'
 ---
 
 ## Markdown

@@ -8,73 +8,69 @@
 <svelte:head>
 	<title>{config.title}</title>
 </svelte:head>
-
-<!-- Posts -->
-<section>
-	<ul class="posts">
-		{#each data.posts as post}
-			<li class="post">
-				<a href={post.slug} class="title">{post.title}</a>
+<div class="content">
+	{#each data.posts as post}
+		<img src={post.headerimage} />
+		<h2><a href={post.slug} class="title">{post.title}</a></h2>
+		<p>{post.description}</p>
+		<div class="author">
+			<img class="pfp" src={post.author} alt="Sophie Earl " />
+			<div class="me">
+				<p class="name">Sophie Earl</p>
 				<p class="date">{formatDate(post.date)}</p>
-				<p class="description">{post.description}</p>
-			</li>
-		{/each}
-	</ul>
-</section>
-
-<!-- <script lang="ts">
-	import Bloglink from '../bloglink.svelte';
-	// import post from '../blog/pico8/day1_Llama';
-	import llama1 from '../blog/pico8/day1_Llama/Screenshot from 2023-07-11 21-19-11.png';
-</script>
-
-<section>
-	<Bloglink
-		title="Pico8 llama game - Day 1"
-		description="Day one of me making a small pico8 llama game!"
-		photo={llama1}
-		photoalt="pico8 game"
-		date="7th July 2023"
-		pfp="https://avatars.githubusercontent.com/u/92051936?v=4"
-		link="/blog/pico8/day1_Llama"
-	/>
-</section>
+			</div>
+		</div>
+	{/each}
+</div>
 
 <style>
-	section {
-		padding-top: 50px;
-		/* height: 90vh; */
-		width: 100%;
-		/* background-color: black; */
+	p {
+		padding: 0;
+		margin-top: 0;
+	}
+	a {
+		text-decoration: none;
+		color: inherit;
+		outline: 0;
+		/* cursor: auto; */
+	}
+	.me {
+		padding-left: 20px;
+	}
+	.content {
+		display: flex;
+		flex-direction: column;
+		padding-top: 90px;
+		/* min-height: 90vh; */
+		align-items: center;
+		justify-content: center;
+		margin: auto;
+	}
+	.author {
+		display: flex;
 		text-align: center;
+		width: 20%;
+		align-items: center;
+		justify-content: center;
+		margin: auto;
 	}
-</style> -->
-
-<!-- <style>
-	.posts {
-		display: grid;
-		gap: 2rem;
+	.pfp {
+		border-radius: 50%;
+		height: 50px;
 	}
-
-	.post {
-		max-inline-size: var(--size-content-3);
-	}
-
-	.post:not(:last-child) {
-		border-bottom: 1px solid var(--border);
-		padding-bottom: var(--size-7);
-	}
-
-	.title {
-		font-size: var(--font-size-fluid-3);
-		text-transform: capitalize;
-	}
-
 	.date {
-		color: var(--text-2);
+		font-size: smaller;
+		margin: 0;
 	}
-
-	.description {
-		margin-top: var(--size-3);
+	.name {
+		margin: 0;
 	}
-</style> -->
+	@media screen and (max-width: 660px) {
+		.author {
+			width: 50%;
+		}
+		img {
+			max-width: 350px;
+		}
+	}
+</style>
