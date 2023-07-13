@@ -1,5 +1,5 @@
 import { dev } from '$app/environment'
 
-export const title = 'Shakespeare'
-export const description = 'SvelteKit blog for poets'
-export const url = dev ? 'http://localhost:5173/' : 'https://joyofcode.xyz/'
+export const title = 'Sophie Earl'
+export const description = 'Portfolio and Blog'
+export const url = dev ? 'http://localhost:5173/' : 'https://sophieearl.pages.dev/'
