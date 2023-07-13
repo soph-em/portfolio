@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	import Post from '../../../blogpost.svelte';
 	import llama from '../day1_Llama/Screenshot from 2023-07-11 21-19-11.png';
 </script>
@@ -22,4 +22,4 @@
 		/* background-color: black; */
 		text-align: center;
 	}
-</style>
+</style> -->
