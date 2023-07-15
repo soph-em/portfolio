@@ -55,7 +55,7 @@
 	<div class="contactlinks">
 		<img class="pfp" src={pfp} alt="Sophie Earl" />
 		<div class="links">
-			<p>email: <a href="mailto:"> sophie@sophieearl.dev</a></p>
+			<p>email: <a href="mailto:"> ***to be added***</a></p>
 			<p>
 				twitter: <a target="_blank" href="https://twitter.com/soph_m_e">@soph_m_e</a>
 			</p>
