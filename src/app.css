@@ -27,4 +27,7 @@
 }
 .prose img {
     max-height: 30vh;
+    display: block;
+    margin-inline: auto;
 }
+

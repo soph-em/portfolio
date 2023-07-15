@@ -62,6 +62,8 @@
 	}
 	.header {
 		max-height: 40vh;
+		display: block;
+		margin-inline: auto;
 	}
 	.pfp {
 		max-height: 50px;
@@ -70,7 +72,7 @@
 	article {
 		max-inline-size: var(--size-content-3);
 		margin-inline: auto;
-		text-align: center;
+		/* text-align: center; */
 		padding-top: 10vh;
 		max-width: 70vw;
 		margin: auto;
