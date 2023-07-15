@@ -11,32 +11,38 @@
 <section class="page contact">
 	<div class="projects" id="projects">
 		<h2>My Work</h2>
-		<Project
-			projectName="Subreddit Guesser"
-			projectimg="https://github.com/soph-em/soph-em/raw/main/images/subredditGuesser.gif"
-			projectimgalt="video of subreddit guesser website"
-			projectGithub="https://github.com/soph-em/subredditguesser"
-			projectLink="https://subredditguesser.com/"
-			projectDescription="Browser game with daily challenge to guess what subreddit an image was posted in. Updates at midnight daily using GitHub Actions."
-			technologies={['SvelteKit', 'Python', 'PRAW', 'GitHub Actions']}
-		/>
-		<Project
-			projectName="Together"
-			projectimg="https://github.com/soph-em/soph-em/raw/main/images/together.gif"
-			projectimgalt="video of Together Calendar website"
-			projectGithub="https://github.com/Together-100Devs/Together"
-			projectLink="https://together.cyclic.app/"
-			projectDescription="Open Source contributions to calendar app supporting event scheduling for a community 40,000 strong. Added a component, converted to react-router and added associated testing, submitted bug report."
-			technologies={['React', 'Tailwind CSS', 'Node.JS', 'Express.JS', 'MongoDB', 'Cypress']}
-		/>
-		<Project
-			projectName="Space Raiders"
-			projectimg="https://github.com/soph-em/soph-em/raw/main/images/spaceRaidersPico.gif"
-			projectimgalt="video of 8bit space raiders"
-			projectGithub="https://github.com/soph-em/pico8spaceraiderclone"
-			projectDescription="Space raiders game made in Pico8/Lua-based environment."
-			technologies={['Pico8', 'Lua']}
-		/>
+		<div class="project">
+			<Project
+				projectName="Subreddit Guesser"
+				projectimg="https://github.com/soph-em/soph-em/raw/main/images/subredditGuesser.gif"
+				projectimgalt="video of subreddit guesser website"
+				projectGithub="https://github.com/soph-em/subredditguesser"
+				projectLink="https://subredditguesser.com/"
+				projectDescription="Browser game with daily challenge to guess what subreddit an image was posted in. Updates at midnight daily using GitHub Actions."
+				technologies={['SvelteKit', 'Python', 'PRAW', 'GitHub Actions']}
+			/>
+		</div>
+		<div class="project">
+			<Project
+				projectName="Together"
+				projectimg="https://github.com/soph-em/soph-em/raw/main/images/together.gif"
+				projectimgalt="video of Together Calendar website"
+				projectGithub="https://github.com/Together-100Devs/Together"
+				projectLink="https://together.cyclic.app/"
+				projectDescription="Open Source contributions to calendar app supporting event scheduling for a community 40,000 strong. Added a component, converted to react-router and added associated testing, submitted bug report."
+				technologies={['React', 'Tailwind CSS', 'Node.JS', 'Express.JS', 'MongoDB', 'Cypress']}
+			/>
+		</div>
+		<div class="project">
+			<Project
+				projectName="Space Raiders"
+				projectimg="https://github.com/soph-em/soph-em/raw/main/images/spaceRaidersPico.gif"
+				projectimgalt="video of 8bit space raiders"
+				projectGithub="https://github.com/soph-em/pico8spaceraiderclone"
+				projectDescription="Space raiders game made in Pico8/Lua-based environment."
+				technologies={['Pico8', 'Lua']}
+			/>
+		</div>
 	</div>
 </section>
 
@@ -62,6 +68,9 @@
 
 <!-- logo colour #005286; -->
 <style>
+	.project {
+		padding-top: 2rem;
+	}
 	.contact {
 		width: 50%;
 		padding-bottom: 3%;

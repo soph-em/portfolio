@@ -57,13 +57,16 @@
 		background-color: white;
 		max-width: 55vw;
 		height: 50%;
+		padding: 1rem;
 	}
 	.links {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-between;
+		margin-inline: auto;
 		padding-left: 45px;
 		padding-right: 45px;
 		padding-bottom: 20px;
+		max-width: 50%;
 	}
 	.project {
 		display: flex;
@@ -96,7 +99,7 @@
 	.title {
 		flex: 1;
 		font-size: large;
-		padding-top: 10px;
+		/* padding-top: 10px; */
 	}
 	@media screen and (min-width: 640px) and (max-width: 1275px) {
 		.area {
