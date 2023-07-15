@@ -2,6 +2,7 @@
 	import Footer from './footer.svelte';
 	import Navbar from './navbar.svelte';
 	import Testnavbar from './testnavbar.svelte';
+	import '../app.css';
 </script>
 
 <!-- <Testnavbar /> -->

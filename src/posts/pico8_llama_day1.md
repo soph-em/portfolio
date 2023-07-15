@@ -13,8 +13,6 @@ headerimage: '/day1.png'
 
 <!-- ![Text](image.webp) -->
 
-## PICO-8 Llama Game - Day 1
-
 When I first launched up PICO-8 I had wanted to make a bunny game. I have a pet rabbit called Zeus who is a 'ruby eye white'. It turns out though that I can't draw rabbits, so I figured my sprite decided it was a llama and I'm now making a llama game.
 
 ![Space Raiders](/day0.png)
