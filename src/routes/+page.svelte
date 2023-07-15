@@ -39,7 +39,7 @@
 				projectimg="https://github.com/soph-em/soph-em/raw/main/images/spaceRaidersPico.gif"
 				projectimgalt="video of 8bit space raiders"
 				projectGithub="https://github.com/soph-em/pico8spaceraiderclone"
-				projectDescription="Space raiders game made in Pico8/Lua-based environment."
+				projectDescription="Space raiders game made in PICO-8 virtual machine and game engine/Lua-based environment."
 				technologies={['Pico8', 'Lua']}
 			/>
 		</div>
