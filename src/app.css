@@ -25,3 +25,6 @@
 	border-radius: 8px;
 	tab-size: 2;
 }
+.prose img {
+    max-height: 30vh;
+}

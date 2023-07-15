@@ -17,4 +17,4 @@ When I first launched up PICO-8 I had wanted to make a bunny game. I have a pet 
 
 ![Space Raiders](/day0.png)
 
-After I drew my sprite I drew a basic background, and added in some daisies to the background, maybe eventually the llama will eat them?
+After I drew my sprite I drew a basic background, and added in some daisies to the background, maybe eventually the llama will eat them or something similar to increase health?

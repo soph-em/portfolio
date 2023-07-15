@@ -13,11 +13,11 @@ headerimage: '/day0.png'
 
 <!-- ![Text](image.webp) -->
 
-I started this game as a side project. My main focus up till now has been web dev, but PICO-8 was one of the first ways of coding that I fell in love with.
+I started this game as a side project. My main focus for a while now has been web dev, but PICO-8 was one of the first ways of coding that I tried.
 
-Over two years ago now, I was introduced to PICO-8 and made a little 'space raiders' game. It's so basic but you know those projects that you keep on your portfolio just out of sentimentality? I didn't know how to code at the time, so I struggled through it with a lot of help. I came back to PICO-8 because I wanted something fun and lighthearted while I refocus on what my next projects are.
+Over two years ago now, I was given a copy of PICO-8 and made a little 'space raiders' game. It's quite basic but I'm still a big fan of it and loved building something that I could play wiht. I didn't know how to code at the time, so I struggled through it with a lot of help. I came back to PICO-8 because I wanted something fun and lighthearted while I refocus on what my next projects are.
 
-![Space Raiders](src/blogPhotos/day0.png)
+![Space Raiders](/spaceraiders.png)
 
 I've never really been a blogger, so this is very new to me! I'm really enjoying sharing my progress on Twitter, but there's so much more I can share without the character limit!
 
