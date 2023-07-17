@@ -13,6 +13,8 @@ headerimage: '/day7.png'
 
 I had a day off work today, and not too many commitments, so I had a bit more time than usual to work on this today. I'd started working on checking if the foxes were being hit by the spits yesterday, but then my day got a lot busier so I couldn't put any more time into it, it couldn't run because of a syntax error.
 
+Otherwise, I spent some time over the weekend looking at options to make a small console that could run this game, probably a handheld Raspberry Pi. We've ordered a few parts and we're both excited to learn through trial and error.
+
 My first task today was to make the code run, from the error message I had, I was missing an `end` somewhere. My code had turned into a bit of a mess with one of my functions being far too long, and no longer what it was named, and some poorly named variables. I took the chance to do a re-work and split the functions up, rename things, and try to make sure everything was closed.
 
 After I fixed this, I got the interactions working, and animated the foxes flashing when they get hit to show they've taken damage, but the animation for this wasn't working. As soon as one was hit there would be a few second delay then they'd both alternate between flashing. I figured out eventually that my collision logic/mathematics was wrong, and once I'd fixed that the collisions worked as expected.
