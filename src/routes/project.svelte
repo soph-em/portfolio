@@ -12,8 +12,8 @@
 <div class="area">
 	<p class="title">{projectName}</p>
 	<div class="links">
-		<div>
-			{#if projectLink}
+		{#if projectLink}
+			<div>
 				<svg
 					width="15"
 					height="15"
@@ -26,9 +26,10 @@
 				>
 
 				<a href={projectLink}>Live Demo</a>
-			{/if}
-			<!-- <a href={projectLink} target="”_blank”">Live Demo</a> -->
-		</div>
+				<!-- <a href={projectLink} target="”_blank”">Live Demo</a> -->
+			</div>
+		{/if}
+
 		<div>
 			<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
 				><path
@@ -61,12 +62,12 @@
 	}
 	.links {
 		display: flex;
-		justify-content: space-between;
-		margin-inline: auto;
-		padding-left: 45px;
-		padding-right: 45px;
+		justify-content: space-around;
+		/* margin-inline: auto; */
+		/* padding-left: 45px; */
+		/* padding-right: 45px; */
 		padding-bottom: 20px;
-		max-width: 50%;
+		/* max-width: 50%; */
 	}
 	.project {
 		display: flex;
