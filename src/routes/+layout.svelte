@@ -15,7 +15,7 @@
 	:global(body) {
 		margin: 0;
 	}
-	:global(p, h1, h2, h3) {
+	:global(p, h1, h2, h3, a) {
 		font-family: 'Montserrat', sans-serif;
 	}
 	:global(html) {
