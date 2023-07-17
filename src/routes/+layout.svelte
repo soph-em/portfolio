@@ -5,11 +5,9 @@
 	import '../app.css';
 </script>
 
-<!-- <Testnavbar /> -->
 <div>
 	<Navbar />
 	<slot />
-	<!-- <div class="grow" /> -->
 	<Footer />
 </div>
 
