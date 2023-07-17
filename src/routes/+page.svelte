@@ -13,26 +13,27 @@
 		<h2>My Work</h2>
 		<div class="project">
 			<Project
-				projectName="Subreddit Guesser"
-				projectimg="https://github.com/soph-em/soph-em/raw/main/images/subredditGuesser.gif"
-				projectimgalt="video of subreddit guesser website"
-				projectGithub="https://github.com/soph-em/subredditguesser"
-				projectLink="https://subredditguesser.com/"
-				projectDescription="Browser game with daily challenge to guess what subreddit an image was posted in. Updates at midnight daily using GitHub Actions."
-				technologies={['SvelteKit', 'Python', 'PRAW', 'GitHub Actions']}
-			/>
-		</div>
-		<div class="project">
-			<Project
 				projectName="Together"
 				projectimg="https://github.com/soph-em/soph-em/raw/main/images/together.gif"
 				projectimgalt="video of Together Calendar website"
 				projectGithub="https://github.com/Together-100Devs/Together"
 				projectLink="https://together.cyclic.app/"
-				projectDescription="Open Source contributions to calendar app supporting event scheduling for a community 40,000 strong. Added a component, converted to react-router and added associated testing, submitted bug report."
+				projectDescription="Open Source contributions to calendar app supporting event scheduling for a community 40,000 strong. Added a component, converted project to react-router and added associated testing, submitted bug report."
 				technologies={['React', 'Tailwind CSS', 'Node.JS', 'Express.JS', 'MongoDB', 'Cypress']}
 			/>
 		</div>
+		<div class="project">
+			<Project
+				projectName="Subreddit Guesser"
+				projectimg="https://github.com/soph-em/soph-em/raw/main/images/subredditGuesser.gif"
+				projectimgalt="video of subreddit guesser website"
+				projectGithub="https://github.com/soph-em/subredditguesser"
+				projectLink="https://subredditguesser.com/"
+				projectDescription="Browser game with daily challenge to guess what subreddit an image was posted in. Uses Python Reddit API Wrapper to access Reddit API/Images. Updates at midnight daily using GitHub Actions."
+				technologies={['SvelteKit', 'Python', 'PRAW', 'GitHub Actions']}
+			/>
+		</div>
+
 		<div class="project">
 			<Project
 				projectName="Space Raiders"
