@@ -66,7 +66,6 @@
 	</div>
 </section>
 
-<!-- logo colour #005286; -->
 <style>
 	.project {
 		padding-top: 2rem;
@@ -107,19 +106,12 @@
 	}
 
 	section {
-		/* height: 90vh; */
-		/* width: 100%; */
-		/* background-color: black; */
 		text-align: center;
 		margin: auto;
-
-		/* width: 50%; */
-
 		padding: 10px;
 	}
 	img {
 		height: 100%;
-		/* width: auto; */
 		max-width: 100%;
 	}
 
@@ -127,15 +119,12 @@
 		.projects {
 			padding: 0;
 			width: 100%;
-			/* padding-top: 50px; */
-			/* height: fit-content; */
 		}
 		img {
 			height: 50%;
 		}
 		section {
 			height: 50%;
-			/* width: 100%; */
 		}
 		.hero {
 			padding-top: 20%;
@@ -143,22 +132,11 @@
 		}
 		.contact {
 			width: 75%;
-			/* background-color: blue; */
 		}
-		/* .contact {
-			width: 90vw;
-		}
-		.contactlinks {
-			display: flex;
-			flex-direction: column;
-		} */
 	}
 	@media screen and (min-width: 640px) and (max-width: 1280px) {
 		.projects {
 			margin: auto;
-
-			/* width: 50%; */
-
 			padding: 10px;
 		}
 		section {

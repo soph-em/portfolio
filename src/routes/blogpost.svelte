@@ -8,7 +8,6 @@
 </script>
 
 <div class="content">
-	<!-- <a href="/"> -->
 	<img src={photo} alt={photoalt} />
 	<h2>{title}</h2>
 	<p>{content}</p>
@@ -19,7 +18,6 @@
 			<p class="date">{date}</p>
 		</div>
 	</div>
-	<!-- </a> -->
 </div>
 
 <style>
@@ -27,7 +25,6 @@
 		text-decoration: none;
 		color: inherit;
 		outline: 0;
-		/* cursor: auto; */
 	}
 	.me {
 		padding-left: 20px;

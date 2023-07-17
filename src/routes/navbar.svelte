@@ -16,7 +16,7 @@
 
 		setTimeout(() => {
 			window.location.href = href;
-		}, 300); // Adjust the delay as needed
+		}, 300);
 	}
 
 	onMount(() => {
@@ -65,16 +65,10 @@
 		<h2>
 			<a href="/#contact">Contact</a>
 		</h2>
-		<!-- <h2>
-	  <a href="/expertise">Expertise</a>
-	</h2> -->
+
 		<h2>
 			<a href="/blog">Blog</a>
 		</h2>
-		<!-- <h2>
-			<a href="https://twitter.com/soph_m_e" target="">My Twitter</a>
-		</h2> -->
-		<!-- <img src={twitter} /> -->
 	</div>
 </nav>
 
@@ -89,9 +83,7 @@
 		<h2>
 			<a href="/#contact" on:click={closeMenu}>Contact</a>
 		</h2>
-		<!-- <h2>
-      <a href="/expertise" on:click={closeMenu}>Expertise</a>
-    </h2> -->
+
 		<h2>
 			<a href="/blog" on:click={closeMenu}>Blog</a>
 		</h2>
@@ -99,19 +91,12 @@
 {/if}
 
 <style>
-	img {
-		height: 25px;
-		display: block;
-		text-align: center;
-		padding: 16px;
-		text-decoration: none;
-	}
 	.burgerMenu {
 		position: fixed;
 		top: 0;
 		left: 0;
 		z-index: 9998;
-		/* display: flex; */
+
 		flex-direction: column;
 		width: 40vw;
 		height: 100vh;
@@ -123,7 +108,6 @@
 		transform: translateX(-100%);
 		opacity: 0;
 		padding-top: 90px;
-		/* font-size: 48px; */
 	}
 
 	.burgerMenu.active {
@@ -133,8 +117,6 @@
 	.burger {
 		display: none;
 		z-index: 9999;
-		/* margin-left: 20px; */
-		/* margin-right: 30px; */
 	}
 
 	a {
@@ -143,7 +125,6 @@
 		text-align: center;
 		padding: 16px;
 		text-decoration: none;
-		/* width: calc(100% - 32px);  */
 	}
 
 	nav {
@@ -154,10 +135,10 @@
 		align-items: center;
 		height: 4rem;
 		background-color: black;
-		position: fixed; /* Add this line */
-		top: 0; /* Add this line */
-		left: 0; /* Add this line */
-		right: 0; /* Add this line */
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
 		z-index: 9999;
 	}
 
@@ -194,10 +175,6 @@
 	@media screen and (max-width: 500px) {
 		nav {
 			max-width: 100vw;
-		}
-
-		h2 {
-			/* font-size: xx-small; */
 		}
 
 		.logo {

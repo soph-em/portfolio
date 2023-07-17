@@ -38,17 +38,14 @@
 		text-decoration: none;
 		color: inherit;
 		outline: 0;
-		/* cursor: auto; */
 	}
 	.me {
 		padding-left: 20px;
-		/* padding-bottom: 50px; */
 	}
 	.content {
 		display: flex;
 		flex-direction: column;
 		padding-top: 90px;
-		/* min-height: 90vh; */
 		align-items: center;
 		justify-content: center;
 		margin: auto;
@@ -57,7 +54,6 @@
 	.author {
 		display: flex;
 		text-align: center;
-		/* width: 20%; */
 		align-items: center;
 		justify-content: center;
 		margin: auto;
