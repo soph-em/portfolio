@@ -44,6 +44,18 @@
 				technologies={['Pico8', 'Lua']}
 			/>
 		</div>
+
+		<div class="project">
+			<Project
+				projectName="Photography Portfolio"
+				projectimg="https://github.com/soph-em/soph-em/raw/main/images/Screencast-from-2023-07-17-16-57-29.gif"
+				projectimgalt="video of photography portfolio website showing several landscape photos"
+				projectGithub="https://github.com/soph-em/sophieearlphotography"
+				projectLink="https://sophieearlphotography.pages.dev/"
+				projectDescription="Created a custom photography portfolio website to showcase my work using SvelteKit for a streamlined, user-friendly experience. Combined my passion for photography with modern web development skills to build a lightweight, responsive platform. Taking advantage of SvelteKit's modular architecture to craft a fast, optimized site that loads seamlessly across devices. The end result is a sleek, efficient way to share my photography. "
+				technologies={['Sveltekit']}
+			/>
+		</div>
 	</div>
 </section>
 

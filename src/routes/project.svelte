@@ -104,14 +104,19 @@
 		background-color: #005286;
 		padding: 2% 20px;
 		border-radius: 5%;
-		color: aliceblue;
+		color: #f0f8ff;
 		margin-top: 0;
 		/* font-size: smaller; */
 	}
 	img {
-		max-height: 200px;
+		/* max-height: 200px; */
 		padding-right: 20px;
-		padding-top: 20px;
+		padding-top: 40px;
+		padding-bottom: 20px;
+		width: 400px;
+		max-height: 200px;
+		/* height: auto; */
+		/* object-fit: contain; */
 	}
 	.title {
 		flex: 1;
@@ -180,6 +185,9 @@
 		.technologies {
 			flex-wrap: wrap;
 			padding: 5px 20px;
+		}
+		.oneTech {
+			/* font-size: smaller; */
 		}
 	}
 </style>
