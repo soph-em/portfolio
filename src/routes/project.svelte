@@ -66,6 +66,7 @@
 		background-color: #b3c7f7;
 		padding: 15px;
 		margin: 0 40px;
+		box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 	}
 	.area {
 		background-color: white;
@@ -158,7 +159,8 @@
 			width: 100%;
 			max-width: 100%;
 			height: 70%;
-			padding: 0;
+			padding: 0 10px;
+			padding-top: 20px;
 		}
 		.links {
 			padding-left: 0;
