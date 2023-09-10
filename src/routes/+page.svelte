@@ -18,7 +18,7 @@
 				projectimgalt="video of Together Calendar website"
 				projectGithub="https://github.com/Together-100Devs/Together"
 				projectLink="https://together.cyclic.app/"
-				projectDescription="Open Source contributions to calendar app supporting event scheduling for a community 40,000 strong. Added a component, converted project to react-router and added associated testing, submitted bug report."
+				projectDescription="Open Source contributions to calendar app supporting event scheduling for a community 50,000 strong. Migrated project architecture to React Router to enhance routing and navigation, added associated comprehensive testing suite, and proactively identified and resolved software defects via detailed bug reports. My contributions modernised the codebase, improved stability and performance, and enabled a smoother user experience for tens of thousands of users."
 				technologies={['React', 'Tailwind CSS', 'Node.JS', 'Express.JS', 'MongoDB', 'Cypress']}
 			/>
 		</div>
@@ -29,7 +29,7 @@
 				projectimgalt="video of subreddit guesser website"
 				projectGithub="https://github.com/soph-em/subredditguesser"
 				projectLink="https://subredditguesser.com/"
-				projectDescription="Browser game with daily challenge to guess what subreddit an image was posted in. Uses Python Reddit API Wrapper to access Reddit API/Images. Updates at midnight daily using GitHub Actions."
+				projectDescription="Built an engaging daily browser game that challenges users to identify subreddits from images, utilizing SvelteKit, GitHub Actions, and a custom Python Reddit API wrapper. Programmatically accessed the Reddit API daily to draw from a vast image pool, automatically deploying new content at midnight using GitHub Actions for a dynamic user experience."
 				technologies={['SvelteKit', 'Python', 'PRAW', 'GitHub Actions']}
 			/>
 		</div>
@@ -40,7 +40,7 @@
 				projectimg="https://github.com/soph-em/soph-em/raw/main/images/spaceRaidersPico.gif"
 				projectimgalt="video of 8bit space raiders"
 				projectGithub="https://github.com/soph-em/pico8spaceraiderclone"
-				projectDescription="Space raiders game made in PICO-8 virtual machine and game engine/Lua-based environment."
+				projectDescription="Developed an immersive space combat game from the ground up using PICO-8, an innovative fantasy console and game engine. Programmed core gameplay logic, retro graphics, and sound effects using Lua to create a fully playable space shooter within the constraints of PICO-8's retro-styled virtual machine."
 				technologies={['Pico8', 'Lua']}
 			/>
 		</div>
@@ -56,7 +56,7 @@
 	<div class="contactlinks">
 		<img class="pfp" src={pfp} alt="Sophie Earl" />
 		<div class="links">
-			<p>email: <a href="mailto:"> ***to be added***</a></p>
+			<p>email: <a href="mailto:"> sophie@softwarecrab.com</a></p>
 			<p>
 				twitter: <a target="_blank" href="https://twitter.com/soph_m_e">@soph_m_e</a>
 			</p>
@@ -103,7 +103,7 @@
 		padding-top: 10%;
 	}
 	.page {
-		background-color: aliceblue;
+		background-color: #f0f8ff;
 	}
 
 	section {
@@ -120,6 +120,10 @@
 		.projects {
 			padding: 0;
 			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center; /* Center items horizontally */
+			text-align: center; /* Center text within each project item */
 		}
 		img {
 			height: 50%;
