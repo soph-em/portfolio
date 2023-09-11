@@ -148,7 +148,8 @@
 			height: 40%;
 		}
 		.contact {
-			width: 75%;
+			/* width: 75%; */
+			/* margin: 0 auto; */
 		}
 	}
 	@media screen and (min-width: 640px) and (max-width: 1280px) {
