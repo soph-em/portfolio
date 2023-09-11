@@ -164,4 +164,15 @@
 			height: 40%;
 		}
 	}
+	@media screen and (min-width: 320px) and (max-width: 639px) {
+		.contactlinks {
+			flex-direction: column;
+		}
+		img {
+			max-width: 100%;
+		}
+		.pfp {
+			height: auto;
+		}
+	}
 </style>

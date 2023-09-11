@@ -174,7 +174,7 @@
 
 	@media screen and (max-width: 500px) {
 		nav {
-			max-width: 100vw;
+			/* max-width: 100vw; */
 		}
 
 		.logo {
@@ -189,7 +189,7 @@
 		}
 
 		nav {
-			max-width: 100vw;
+			/* max-width: 100vw; */
 		}
 
 		h2 {
@@ -210,7 +210,7 @@
 	@media screen and (max-width: 1200px) {
 		.logo {
 			padding: 0;
-			padding-left: 2rem;
+			/* padding-left: 2rem; */
 		}
 	}
 </style>

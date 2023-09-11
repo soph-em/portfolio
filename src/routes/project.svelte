@@ -214,4 +214,55 @@
 			/* font-size: smaller; */
 		}
 	}
+
+	@media screen and (min-width: 320px) and (max-width: 639px) {
+		.single-link {
+			display: block;
+			margin: 10px 0; /* Add margin between the buttons */
+			text-align: center; /* Center the text horizontally */
+			line-height: 2.5;
+		}
+		.area {
+			/* width: 100%; */
+			max-width: 100%;
+			height: 70%;
+			padding: 0 10px;
+			padding-top: 20px;
+			/* margin: 0 auto; */
+		}
+		.links {
+			padding-left: 0;
+			padding-right: 0;
+			flex-direction: column;
+		}
+		svg {
+			padding-top: 10px;
+		}
+		.project {
+			flex-direction: column-reverse;
+			align-items: center; /* Center items horizontally */
+		}
+
+		img {
+			/* max-height: 400px; */
+			max-width: 300px;
+
+			padding-right: 0;
+			margin: auto; /* Center the image horizontally */
+		}
+		/* .project {
+			flex-direction: column-reverse;
+		}
+		img {
+			max-height: 400px;
+			padding-right: 0;
+		} */
+		.technologies {
+			flex-wrap: wrap;
+			padding: 5px 20px;
+		}
+		.oneTech {
+			/* font-size: smaller; */
+		}
+	}
 </style>
