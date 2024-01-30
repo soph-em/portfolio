@@ -2,15 +2,29 @@
 	import logo from '../routes/Untitled.png';
 	import Project from './project.svelte';
 	import pfp from './pfp.jpg';
+	import dailykcal from './dailyKcal.png';
 </script>
 
 <section class="hero">
-	<img src={logo} alt="logo" />
+	<img
+		src={logo}
+		alt="header image showing durham cathedral on one side, and on the other said says Software Developer, and shows icons for python, javascript, and a generic web dev icon"
+	/>
 </section>
 
 <section class="page contact">
 	<div class="projects" id="projects">
 		<h2>My Work</h2>
+		<div class="project">
+			<Project
+				projectName="DailyKCAL Website"
+				projectimg={dailykcal}
+				projectimgalt="picture of DailyKCAL website"
+				projectLink="https://dailykcal.app/"
+				projectDescription="Worked with app developer Software Crab Ltd to produce an informational website to showcase one of their new mobile applications. Implemented responsive design to optimize site rendering across desktop, tablet and mobile browsers. Provided direct links to download the app on both the App Store and Google Play. The easy-to-navigate website serves as an accessible reference for users to learn more about the app before installing it. "
+				technologies={['Sveltekit', 'Tailwind CSS']}
+			/>
+		</div>
 		<div class="project">
 			<Project
 				projectName="Together"
