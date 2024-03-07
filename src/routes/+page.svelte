@@ -123,8 +123,8 @@
 	}
 	.hero {
 		/* height: 80vh; */
-		padding-top: 10%;
-		width: 100vw;
+		/* padding-top: 10%; */
+		/* width: 100vw; */
 	}
 	.page {
 		background-color: #f0f8ff;
